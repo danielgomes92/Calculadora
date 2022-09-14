@@ -6,7 +6,7 @@ Console.WriteLine("Calculadora\r");
 Console.WriteLine("------------------------\n");
 
 // primeiro numero da soma.
-Console.WriteLine("Digite um número, e tecle Enter:");
+Console.WriteLine("Digite um número, e tecle Enter: ");
 numero1 = Convert.ToInt32(Console.ReadLine());
 
 // segundo numero da soma.
@@ -25,16 +25,16 @@ Console.Write("Qual operação? ");
 switch (Console.ReadLine())
 {
     case "a":
-        Console.WriteLine($"Seu resultado é: {numero1} + {numero2} = " + (numero1 + numero2), "\n");
+        Console.WriteLine($"Seu resultado é: {numero1} + {numero2} = " + (numero1 + numero2) + "\n");
         break;
     case "s":
-        Console.WriteLine($"Seu resultado é: {numero1} - {numero2} = " + (numero1 - numero2));
+        Console.WriteLine($"Seu resultado é: {numero1} - {numero2} = " + (numero1 - numero2) + "\n");
         break;
     case "m":
-        Console.WriteLine($"Seu resultado é: {numero1} * {numero2} = " + (numero1 * numero2));
+        Console.WriteLine($"Seu resultado é: {numero1} * {numero2} = " + (numero1 * numero2) + "\n");
         break;
     case "d":
-        Console.WriteLine($"Seu resultado ét: {numero1} / {numero2} = " + (numero1 / numero2));
+        Console.WriteLine($"Seu resultado ét: {numero1} / {numero2} = " + (numero1 / numero2) + "\n");
         break;
 }
 Console.Write("Pressione alguma tecla para encerrar a Calculadora...");
